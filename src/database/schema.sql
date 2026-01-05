@@ -5,6 +5,7 @@ CREATE TABLE IF NOT EXISTS game_accounts (
     level INTEGER,
     price BIGINT,
     description TEXT,
+    image VARCHAR(255),
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 )
